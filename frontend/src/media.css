@@ -1,0 +1,44 @@
+@media screen and (max-width: 780px) {
+    .hamburgerIcon {
+      display: block;
+    }
+  
+    .menu {
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      left: -120%;
+      background-color: white;
+      width: 100%;
+      padding: 10px;
+      transition: 0.7s ease-in-out;
+    }
+  
+    .menu.active {
+      left: 0;
+    }
+  }
+
+
+    @media screen and (max-width: 490px) {
+        .create h2 {
+            
+            font-size: 24px;
+            
+          
+          }
+    }
+
+    @media screen and (max-width: 420px) {
+        .create h2 {
+            
+            font-size: 18px;
+            
+          }
+
+          form {
+            width: 50%;
+            max-width: 500px;
+            text-align: center;
+          }
+    }
